@@ -75,3 +75,29 @@ span{
 .ridge{border: 14px blue ridge}
 
 .solid{border: 3px blue solid}
+
+a.button{
+    display: block;
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #77aaaa;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #aadddd;
+    background: -moz-linear-gradient(top,#aadddd 0%, #77aaaa 100%);
+    background: -webkit-linear-gradient(top,#aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(top,#aadddd 0%, #77aaaa 100%);
+
+
+}
+a.button:hover{
+    background: #77aaaa;
+    background: -moz-linear-gradient(bottom,#aadddd 0%, #77aaaa 100%);
+    background: -webkit-linear-gradient(bottom,#aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(bottom,#aadddd 0%, #77aaaa 100%);
+}
